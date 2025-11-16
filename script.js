@@ -1,4 +1,4 @@
-/*let employee = { 
+/*1.let employee = { 
     name: "vanshika kathpal",
     position:"full stack developer",
     age : 21,
@@ -8,7 +8,7 @@
 }
 employee.performance();*/
 
-let car = { 
+/*2.let car = { 
     name: "defender",
     brand: "toyata",
     price: "2 crore",
@@ -21,9 +21,55 @@ let car = {
                 console.log("don't buy")
     }
 }
+};*/
+
+//car.status();//
+
+/*3. let students = {
+    totalcount : 12000,
+    female : 4000,
+    male : 8000,
+    category : "topper",
+    marks : 95,
+    check : function () { 
+        if(this.marks === 99) {
+       console.log("Topper of the School") 
+        } else if (this.marks = 95) {
+         console.log("Bright student")
+        } else {
+            console.log("Average Student")
+        }
+    } 
 };
 
-car.status();
+ 4.students.check();*/ /*Bank account object,name,balance,Ek function:,deposit(amount) balance increase kare,withdraw(amount) balance kam kare,Final balance print karo.*/
 
+ /*let account = {
+    holdername: "Vanshika Kathpal",
+    balance: 10000000,
+    deposit (amount) {
+        this.balance += amount
+        console.log("Final balance after deposit = " + this.balance)
+    },
+        withdrawl(amount) {
+            this.balance -= amount
+            console.log("Final balance after withdrwal= " + this.balance)
+        }
+    };
 
-let 
+account.deposit(20000000);
+account.withdrawl(1000000);*/
+
+/* 5. Book ---object {title, author,pages,Ek function readTime(),pages / 2 karke “minutes” print kare
+(Assume 2 pages = 1 minute)*/
+
+ let book = { 
+    title : "Master your mindset",
+    author: "Ravi Saroj",
+    pages: 60,
+    readTime() {
+        console.log("minutes =" + this.pages/2)
+    }
+    };
+    
+book.readTime();
