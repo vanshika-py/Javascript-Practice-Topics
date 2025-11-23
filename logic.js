@@ -94,7 +94,7 @@ laptop.checkPrice();*/
 
 /*7.  Make a mobile object and add a function batteryStatus().*/
 
-let mobile = {
+/*let mobile = {
     brand: "samsung",
     color: "black",
     model: "s20",
@@ -120,4 +120,8 @@ console.log(val);
 let ent = Object.entries(mobile);
 console.log(ent);
 
-delete mobile.color;
+delete mobile.color; */
+
+
+
+

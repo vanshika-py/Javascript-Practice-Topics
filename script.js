@@ -82,6 +82,45 @@ let [item1, item2, a] = arr;
 console.log(item1, item2);
 console.log(item1, item2, a);
 
+// DOM MANIPULATION --- DOCUMENT OBJECT MODEL>>>>>
+ 1] DOM -- LIKE A TREE 
+ 2] SELECTION OF HTML ELEEMENTS 
+ 3] HOW TO CHANGE OR MANIPULATE HTML
+ 4] HOW TO CHANGE OR MANIPULATE CSS
+ 5] EVENT LISTENER {Event, function}*/
+
+let sel = document.querySelector('h1');
+console.log(sel);
+sel.innerHTML = "I AM LEARNING HTML AS A PART OF JAVASCRIPT";
+sel.style.backgroundColor = "Red";
+sel.style.color = "White";
+sel.addEventListener("click", () => {
+    sel.style.backgroundColor = "Orange"
+});
+
+let para = document.querySelector('p');
+console.log(para);
+para.innerHTML = "I feel Dom as interesting but facing little problems while scripting , but it's ok today is my first day"
+para.style.backgroundColor = "Greeb";
+para.style.Color = "White";
+para.addEventListener("click", ()=> {
+  para.style.color = "Orange"
+})
+
+let h =  document.querySelector("h5");
+console.log(h);
+h.innerHTML = "VANSHIKA";
+h.style.backgroundColor = "Red";
+h.style.color = "White";
+h.style.width = "200px";
+h.addEventListener("click",()=>{
+    h.style.backgroundColor = "Orange"
+})
+
+
+
+
+
 
 
 
