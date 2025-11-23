@@ -1,75 +1,88 @@
-/*1.let employee = { 
-    name: "vanshika kathpal",
-    position:"full stack developer",
-    age : 21,
-    performance : function perf() {
-        console.log("vanshika is a very excellent full stack developer")
-    } 
+/*t pen = {
+    color : "red",
+    brand: "win",
+}//
+
+/*let k = Object.keys(pen);
+console.log(k);
+
+let v = Object.values(pen);
+console.log(v);
+
+let e = Object.entries(pen);
+console.log(e);
+
+let a = Object.assign(pencil, pen);
+console.log(a);
+
+
+console.log(pencil);*/
+
+/*t obj1 = {
+    name : "vanshika kathpal",
+    age : 24
 }
-employee.performance();*/
-
-/*2.let car = { 
-    name: "defender",
-    brand: "toyata",
-    price: "2 crore",
-    speed : 120,
-    color: "white",
-    status: function check() { 
-        if(this.speed > 100) { 
-            console.log("Buy this car")
-         } else { 
-                console.log("don't buy")
-    }
+let obj2 = {
+    fame : "vansh",
+    class : 4
 }
-};*/
 
-//car.status();//
+/*t obj3 = {...obj2};
+console.log(obj3);*/
 
-/*3. let students = {
-    totalcount : 12000,
-    female : 4000,
-    male : 8000,
-    category : "topper",
-    marks : 95,
-    check : function () { 
-        if(this.marks === 99) {
-       console.log("Topper of the School") 
-        } else if (this.marks = 95) {
-         console.log("Bright student")
-        } else {
-            console.log("Average Student")
-        }
-    } 
+/*t obj4 = {...obj1 , ...obj2};
+console.log(obj4);*/
+
+
+/*.city = "panipat";
+console.log(obj1);
+
+obj2.surname = "chawla";
+console.log(obj2);*/
+
+/*ject.freeze(obj1);
+obj1.country = "india";
+console.log(obj1);
+delete obj1.age;
+obj1.name = "banas";*/
+
+/*ject.seal(obj1);
+/*j1.country = "USA";
+console.log(obj1);*/
+
+/*lete obj1.name;
+console.log(obj1);
+
+obj1.name = "banaskantha";
+console.log(obj1);*/
+
+/*let obj = {
+    name : "vanshika",
+    class : 5,
+    city: "panipat",
+    country: "india"
+}
+
+let {city, name} = obj;
+console.log(city, name);
+
+let cars = {
+    first : "defender",
+    second : "fortuner",
+    third : "suzuki",
+    fourth : "porsche"
 };
 
- 4.students.check();*/ /*Bank account object,name,balance,Ek function:,deposit(amount) balance increase kare,withdraw(amount) balance kam kare,Final balance print karo.*/
+let {fourth, first} = cars;
+console.log(fourth, first);
 
- /*let account = {
-    holdername: "Vanshika Kathpal",
-    balance: 10000000,
-    deposit (amount) {
-        this.balance += amount
-        console.log("Final balance after deposit = " + this.balance)
-    },
-        withdrawl(amount) {
-            this.balance -= amount
-            console.log("Final balance after withdrwal= " + this.balance)
-        }
-    };
+let arr = [5, "vanshika kathpal", {brand: "punjabi"}];
 
-account.deposit(20000000);
-account.withdrawl(1000000);*/
+let [item1, item2, a] = arr;
+console.log(item1, item2);
+console.log(item1, item2, a);
 
-/* 5. Book ---object {title, author,pages,Ek function readTime(),pages / 2 karke “minutes” print kare
-(Assume 2 pages = 1 minute)*/
 
- let book = { 
-    title : "Master your mindset",
-    author: "Ravi Saroj",
-    pages: 60,
-    readTime() {
-        console.log("minutes =" + this.pages/2)
-    }
-    };
-    
-book.readTime();
+
+
+
