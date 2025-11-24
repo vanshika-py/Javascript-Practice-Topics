@@ -98,14 +98,7 @@ sel.addEventListener("click", () => {
     sel.style.backgroundColor = "Orange"
 });
 
-let para = document.querySelector('p');
-console.log(para);
-para.innerHTML = "I feel Dom as interesting but facing little problems while scripting , but it's ok today is my first day"
-para.style.backgroundColor = "Greeb";
-para.style.Color = "White";
-para.addEventListener("click", ()=> {
-  para.style.color = "Orange"
-})
+           
 
 let h =  document.querySelector("h5");
 console.log(h);
@@ -117,6 +110,30 @@ h.addEventListener("click",()=>{
     h.style.backgroundColor = "Orange"
 })
 
+let head = document.querySelector('h2');
+console.log(head);
+head.innerHTML = "vanshika have a good day";
+head.style.backgroundColor = "RED";
+head.style.color = "White";
+head.addEventListener("click",()=>{
+    head.style.backgroundColor = "Orange"
+});
+
+let box = document.querySelector('p');
+
+
+let but = document.querySelector('button');
+but.addEventListener("click",()=>{
+    box.style.backgroundColor = "Orange"
+    box.style.scale = 1;
+});
+
+let off = document.querySelector('.offbutton');
+off.addEventListener("click",()=>{
+    box.style.backgroundColor = "grey"
+});
+
+let d = document.querySelectorAll('p');
 
 
 
