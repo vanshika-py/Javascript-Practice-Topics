@@ -124,4 +124,3 @@ delete mobile.color; */
 
 
 
-

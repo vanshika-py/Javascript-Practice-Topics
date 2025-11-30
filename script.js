@@ -89,7 +89,7 @@ console.log(item1, item2, a);
  4] HOW TO CHANGE OR MANIPULATE CSS
  5] EVENT LISTENER {Event, function}*/
 
-let sel = document.querySelector('h1');
+/*let sel = document.querySelector('h1');
 console.log(sel);
 sel.innerHTML = "I AM LEARNING HTML AS A PART OF JAVASCRIPT";
 sel.style.backgroundColor = "Red";
@@ -133,12 +133,63 @@ off.addEventListener("click",()=>{
     box.style.backgroundColor = "grey"
 });
 
-let d = document.querySelectorAll('p');
+let d = document.querySelectorAll('p');*/
+
+
+/*let fal = document.querySelector('.node');
+console.log(fal.lastChild);*/
+  
+ /*let a = document.querySelector('.HTML');
+ console.log(a);
+ let b = document.querySelector('#css');
+ console.log(b);
+ let c = document.querySelectorAll('div');
+ console.log(c);
+let d = document.querySelectorAll('*');
+console.log(d);
+let e = document.querySelectorAll('div');
+console.log(e);
+let f = document.querySelectorAll('p');
+console.log(f);
+let g = document.querySelector('.div p');
+console.log(g);
+console.log(a.childNodes);*/
 
 
 
+// tag Name //
+
+/*let a = document.querySelector('h1');
+//console.log(a.nodeName);
+//console.log(a.firstChild);//
+console.log(a.firstChild.nodeName);*/
 
 
+// text// inner text // text content
 
 
+/*a.innerText = "Vanshika wants to master javascript";
+console.log(a.innerText);
+console.log(a.textContent);
 
+let b = document.querySelector('h2');
+b.innerText = "vanshika is a very intectuall girl";
+console.log(b);
+
+let c = document.querySelector('h3');
+c.innerText = "vanshika is learning JS as a part of frontend development";
+console.log(c);*/ 
+
+/*let b = document.querySelector('h1').innerHTML = '<p>vanshika is doing great</p>';
+let a =document.querySelector('h2').innerHTML = '<span> done BSC. STATISTICS FROM UNIVERSITY OF DELHI</span>'
+ console.log(a);
+ console.log(b);*/
+
+ /*let a = document.querySelector('h1');
+ console.log(a.tagName);//ignores visibility
+ console.log(a.nodeName);//ignores visibility
+ console.log(a.textContent);//ignores visibility
+ console.log(a.innerText);// not ignore visibility
+ console.log(a.innerHTML);*/
+
+ 
