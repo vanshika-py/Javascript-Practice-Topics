@@ -8,6 +8,8 @@
 }
 employee.performance();*/
 
+/*const { useLayoutEffect } = require("react");*/
+
 /*2.let car = { 
     name: "defender",
     brand: "toyata",
@@ -121,6 +123,221 @@ let ent = Object.entries(mobile);
 console.log(ent);
 
 delete mobile.color; */
+
+
+/*1.Append a new list item at the end
+
+Task:
+Given this HTML:
+
+<ul id="fruits">
+  <li>Apple</li>
+  <li>Mango</li>
+</ul>
+
+
+Add a new <li>Banana</li> at the end using append or appendChild.*/
+  
+/*let a = document.querySelector('ul');
+let elem = document.createElement('li');
+elem.innerHTML = 'banana';
+/*a.append(elem);*/
+
+/*2. Prepend an item at the top of list
+
+Task:
+Add <li>Orange</li> at the start of the same list using prepend.*/
+ /*let a = document.querySelector('ul');
+ let elem = document.createElement('li');
+ elem.innerHTML = "Orange";
+ a.prepend(elem);*/
+
+ 
+/*3. Insert a paragraph before a div
+
+HTML:
+
+<div id="box">Hello</div>
+
+
+Insert: <p>Inserted Before</p> before the div using insertBefore.*/
+
+/*let div = document.querySelector('div');
+let elem = document.createElement('p');
+elem.innerHTML = "Inserted Before";
+div.before(elem);*/
+
+
+/*4. Append text to an element
+
+HTML:
+
+<h1 id="title">Welcome</h1>
+
+
+Task: Add " to DOM Practice" at the end using append() (no HTML).*/
+
+
+
+/*let a = document.querySelector('h1');
+a.innerHTML = "to DOM practice";
+h1.append(a);*/
+
+
+
+/*5. Prepend text inside a div
+
+HTML:
+
+<div id="msg">This is message.</div>
+
+
+Task: Add "NOTE: " at the beginning using prepend().*/
+
+
+
+/*6. insertAdjacentHTML (beforebegin)
+
+HTML:
+
+<button id="btn">Click Me</button>
+
+
+Task: Insert
+
+<p>Above the button</p>
+
+
+above the button using insertAdjacentHTML("beforebegin").
+
+7. insertAdjacentHTML (afterbegin)
+
+HTML:
+
+<div id="card">
+  <h2>Card</h2>
+</div>
+
+
+Insert inside the div at the top:
+
+<p>Inserted at start</p>
+
+8. insertAdjacentHTML (beforeend)
+
+HTML:
+
+<div id="notes"></div>
+
+
+Insert at bottom:
+
+<p>End note</p>
+
+9. insertAdjacentElement
+
+HTML:
+
+<section id="container"></section>
+
+
+Create a new <h3> with JS and insert it afterbegin using insertAdjacentElement().
+
+10. Insert a new item before another specific element
+
+HTML:
+
+<ul id="tasks">
+  <li id="first">Task 1</li>
+  <li>Task 2</li>
+</ul>
+
+
+Insert a new <li>Task 0</li> before Task 1 using insertBefore().
+
+🔥 Advanced Practice Tasks
+11. Build a comment system using append/prepend
+
+HTML:
+
+<input id="commentInput">
+<button id="addBtn">Add</button>
+<ul id="commentList"></ul>
+
+
+Task:
+When user adds a comment, insert the new comment at:
+
+top using prepend
+
+bottom using append
+
+(Practice both)
+
+12. Chat message UI
+
+HTML:
+
+<div id="chatBox"></div>
+
+
+Task:
+When message is sent → append at bottom.
+When message is received → prepend at top.
+
+13. Add notifications using insertAdjacentHTML
+
+HTML:
+
+<div id="notificationBox"></div>
+
+
+Each new notification:
+
+<div class="noti">New alert!</div>
+
+
+Insert using "afterbegin" so most recent shows on top.
+
+14. Insert ads between paragraphs
+
+HTML:
+
+<p>Para 1</p>
+<p id="target">Para 2</p>
+<p>Para 3</p>
+
+
+Task: Insert:
+
+<div class="ad">Ad Banner</div>
+
+
+before Para 2 using insertBefore().
+
+15. Build a dynamic list with 3 options
+
+Buttons:
+
+Add to top
+
+Add to bottom
+
+Add before selected item
+
+Practice all insert positions.*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

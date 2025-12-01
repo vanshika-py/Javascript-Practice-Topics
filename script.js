@@ -192,11 +192,12 @@ let a =document.querySelector('h2').innerHTML = '<span> done BSC. STATISTICS FRO
  console.log(a.innerText);// not ignore visibility
  console.log(a.innerHTML);*/
 
-let a = document.querySelector('h1');
+/*let a = document.querySelector('h1');
 console.log(a);
 console.log(a.tagName);
 console.log(a.nodeName);
 console.log(a.childNodes);
 console.log(a.textContent);
 console.log(a.innerText);
-a.innerHTML = '<span>Currently learning DOM AS A PART OF JAVASCRIPT</span>';
+a.innerHTML = '<span>Currently learning DOM AS A PART OF JAVASCRIPT</span>';*/
+
