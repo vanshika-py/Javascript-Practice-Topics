@@ -10,3 +10,10 @@ p{
     -ms-transition: linear;
     -o-transition: linear;
 }
+
+div{
+    height: 60px;
+    margin: 20px;
+    background-color: pink;
+    border: 2px solid blue;
+}
