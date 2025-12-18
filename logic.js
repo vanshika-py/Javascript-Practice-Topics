@@ -147,6 +147,7 @@ elem.innerHTML = 'banana';
 
 Task:
 Add <li>Orange</li> at the start of the same list using prepend.*/
+
  /*let a = document.querySelector('ul');
  let elem = document.createElement('li');
  elem.innerHTML = "Orange";
@@ -179,17 +180,14 @@ Task: Add " to DOM Practice" at the end using append() (no HTML).*/
 
 
 
-/*let a = document.querySelector('h1');
-a.innerHTML = "to DOM practice";
-h1.append(a);*/
+
 
 
 
 /*5. Prepend text inside a div
 
 HTML:
-
-<div id="msg">This is message.</div>
+<div id="msg">This is message.</
 
 
 Task: Add "NOTE: " at the beginning using prepend().*/

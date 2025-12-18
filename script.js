@@ -190,9 +190,9 @@ let a =document.querySelector('h2').innerHTML = '<span> done BSC. STATISTICS FRO
  console.log(a.nodeName);//ignores visibility
  console.log(a.textContent);//ignores visibility
  console.log(a.innerText);// not ignore visibility
- console.log(a.innerHTML);*/
+ console.log(a.innerHTML);
 
-/*let a = document.querySelector('h1');
+let a = document.querySelector('h1');
 console.log(a);
 console.log(a.tagName);
 console.log(a.nodeName);
@@ -200,4 +200,131 @@ console.log(a.childNodes);
 console.log(a.textContent);
 console.log(a.innerText);
 a.innerHTML = '<span>Currently learning DOM AS A PART OF JAVASCRIPT</span>';*/
+
+//parent node practice//
+
+/*let selector = document.querySelector('#box');
+
+let parentNode = document.parentNode*/
+
+/* DOM -- document object model  5 phases : 1. DOM 
+2. SELECTION OF AN HTML 
+3.MANIPULATION OF AN HTML 
+4. MANIPULATION OF CSS
+5.EVENT HANDLING 
+
+
+1. DOM -- DOCUMENT OBJECT MODEL 
+IT CHANGES THE HTML ELEMENTS INTO OBJECTS SO THAT JAVASCRIPT CAN EASILY ACCESS THEM. 
+LIKE CSS CAN EASILY ACCES  HTML BUT JAVASCRIPT CAN'T EASILY ACCESS HTML.SO IT NEED A DOM . 
+IT NEED WHEN WE WANT TO CHANGE THE WEBPAGE WITHOUT LOADING 
+DOM IS AVAILABLE INSIDE THE WINDOW OBJECT, 
+WE HAVE TO ADD SCRIPT AT THE LAST OF THE BODY TAG , SO HTML ELEMENTS CAN LOAD FIRST, THEN JS RUN , IF WE ADD JS IN HEAD TAG IT WILL RETRUN NULL. BECAUSE AT THAT TIME HTML ELEMENTS ARE UNABLE TO LOAD,
+2. SELECTION OF AN HTML */
+
+/*let a = document.getElementsByClassName('para');
+console.log(a);*/
+/*et b = document.querySelector('div');
+console.log(b);
+b.innerHTML = "learning Web development";
+let c = document.querySelectorAll('div');
+let d = c.innerHTML = "she is a good girl";
+console.log(d);*/
+
+/*1.Append a new list item at the end
+
+Task:
+Given this HTML:
+
+<ul id="fruits">
+  <li>Apple</li>
+  <li>Mango</li>
+</ul>
+
+Add a new <li>Banana</li> at the end using append or appendChild.*/
+ 
+
+/*let a = document.querySelector('ul');
+console.log(a);
+let elem = document.querySelector('li');
+elem.innerHTML = 'banana';
+a.append(elem);*/
+
+
+
+/*let a = document.querySelector('ul');
+let elem = document.createElement('li');
+elem.innerHTML = 'banana';
+/*a.append(elem);*/
+
+
+
+
+
+
+
+
+/*/*2. Prepend an item at the top of list
+
+Task:
+Add <li>Orange</li> at the start of the same list using prepend.*/
+
+
+/*let a = document.querySelector('ul');
+console.log(a);
+let elem = document.createElement('li');
+elem.innerHTML = "Orange";
+a.prepend(elem);*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*3. Insert a paragraph before a div
+
+HTML:
+
+<div id="box">Hello</div>
+
+
+Insert: <p>Inserted Before</p> before the div using insertBefore.*/
+
+
+/*let a = document.querySelector('div');
+let elem = document.createElement('p');
+elem.innerHTML = "Inserted Before";
+a.before(elem);*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
