@@ -178,6 +178,12 @@ HTML:
 
 Task: Add " to DOM Practice" at the end using append() (no HTML).*/
 
+/*let a = document.querySelector('h1');
+a.textContent+= " to dom manipulation";*/
+
+
+
+
 
 
 
@@ -187,10 +193,19 @@ Task: Add " to DOM Practice" at the end using append() (no HTML).*/
 /*5. Prepend text inside a div
 
 HTML:
-<div id="msg">This is message.</
-
+<div id="msg">This is message.
 
 Task: Add "NOTE: " at the beginning using prepend().*/
+
+/*let a = document.querySelector('div');
+a.textContent = " NOTE : " + a.textContent;
+console.log(a);*/
+
+
+
+
+
+
 
 
 
@@ -204,24 +219,46 @@ HTML:
 Task: Insert
 
 <p>Above the button</p>
+above the button using insertAdjacentHTML("beforebegin").*/
+
+/*let a = document.querySelector('button');
+let b = document.createElement('p');
+b.innerHTML = "Above the Button";
+a.before(b);*/
+
+/*let a = document.querySelector('#btn');
+let b = document.createElement('p');
+b.innerHTML = "Learning Dom as a part of javascript, it is very interesting";
+a.insertAdjacentElement("beforebegin",b);*/
 
 
-above the button using insertAdjacentHTML("beforebegin").
 
-7. insertAdjacentHTML (afterbegin)
+/*7. insertAdjacentHTML (afterbegin)
 
 HTML:
 
 <div id="card">
   <h2>Card</h2>
 </div>
-
-
 Insert inside the div at the top:
 
-<p>Inserted at start</p>
+<p>Inserted at start</p>*/
 
-8. insertAdjacentHTML (beforeend)
+/*let a = document.querySelector('div');
+let b = document.createElement('p');
+b.innerHTML = "insertfkjwejk";
+//a.prepend(b);//
+a.insertAdjacentElement("afterbegin",b);
+console.log(a)*/
+
+
+
+
+
+
+
+
+/*8. insertAdjacentHTML (beforeend)
 
 HTML:
 
@@ -230,18 +267,31 @@ HTML:
 
 Insert at bottom:
 
-<p>End note</p>
+<p>End note</p>*/
 
-9. insertAdjacentElement
+/*let a = document.querySelector('div');
+let b = document.createElement('p');
+b.innerHTML = "End note";
+a.insertAdjacentElement('beforeend',b);*/
+
+
+
+
+/*9. insertAdjacentElement
 
 HTML:
 
 <section id="container"></section>
 
 
-Create a new <h3> with JS and insert it afterbegin using insertAdjacentElement().
+Create a new <h3> with JS and insert it afterbegin using insertAdjacentElement().*/
 
-10. Insert a new item before another specific element
+/*let a = document.querySelector('section');
+let b = document.createElement('h3');
+b.innerHTML = "Heading 3";
+a.insertAdjacentElement("afterbegin",b);*/
+
+/*10. Insert a new item before another specific element
 
 HTML:
 
@@ -251,9 +301,20 @@ HTML:
 </ul>
 
 
-Insert a new <li>Task 0</li> before Task 1 using insertBefore().
+Insert a new <li>Task 0</li> before Task 1 using insertBefore().*/
 
-🔥 Advanced Practice Tasks
+/*let a = document.querySelector('#tasks');
+let elem = document.createElement('li');
+elem.innerHTML = "Task0";
+//a.insertAdjacentElement("beforebegin",elem);//
+let reference = document.querySelector('#first')
+a.insertBefore(elem, reference);*/
+
+
+
+
+
+/*🔥 Advanced Practice Tasks
 11. Build a comment system using append/prepend
 
 HTML:
@@ -263,6 +324,9 @@ HTML:
 <ul id="commentList"></ul>
 
 
+
+
+
 Task:
 When user adds a comment, insert the new comment at:
 
@@ -270,9 +334,13 @@ top using prepend
 
 bottom using append
 
-(Practice both)
+(Practice both)*/
 
-12. Chat message UI
+ 
+
+
+
+/*12. Chat message UI
 
 HTML:
 
@@ -281,9 +349,25 @@ HTML:
 
 Task:
 When message is sent → append at bottom.
-When message is received → prepend at top.
+When message is received → prepend at top.*/
 
-13. Add notifications using insertAdjacentHTML
+let a = document.querySelector('div');
+let b = sent;
+let c = received;
+
+
+function message_status(){
+ a.insertAdjacentElement("afterbegin", b)
+}
+
+message_status(b)
+
+
+
+
+
+
+/*13. Add notifications using insertAdjacentHTML
 
 HTML:
 
@@ -313,7 +397,9 @@ Task: Insert:
 
 before Para 2 using insertBefore().
 
-15. Build a dynamic list with 3 options
+
+
+/*15. Build a dynamic list with 3 options
 
 Buttons:
 
@@ -324,6 +410,8 @@ Add to bottom
 Add before selected item
 
 Practice all insert positions.*/
+
+
 
 
 
