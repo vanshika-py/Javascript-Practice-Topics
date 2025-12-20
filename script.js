@@ -18,6 +18,8 @@ console.log(a);
 
 console.log(pencil);*/
 
+/*const { createElement } = require("react");*/
+
 /*t obj1 = {
     name : "vanshika kathpal",
     age : 24
@@ -301,6 +303,124 @@ Insert: <p>Inserted Before</p> before the div using insertBefore.*/
 let elem = document.createElement('p');
 elem.innerHTML = "Inserted Before";
 a.before(elem);*/
+
+/*let a = document.querySelector('div');*/
+//let b = a.getAttribute('id');//
+//console.log(b);//
+
+/*let a = document.querySelector('div');*/
+/*let b = a.getAttribute('title');
+console.log(b);*/
+/*let b = a.attributes;
+console.log(b);*/
+
+
+/*let a = document.querySelector('div');
+console.log(a.getAttribute('id'));
+a.setAttribute('title', 'vanshika');
+console.log(a);*/
+
+/*let a = document.querySelector('div');
+//console.log(a.attributes);//
+//console.log(a.getAttribute('title'));//
+let classvalue = a.getAttribute('class');
+console.log(classvalue);
+
+a.setAttribute('class', `{classvalue} random`);
+console.log(a);*/
+
+//create a paragraph with text "----" add background color to black & font color to green//
+
+/*let elem = document.createElement('p');
+let b = document.createElement('button');
+b.innerHTML = 'Click me';
+console.log('b');
+b.style.backgroundColor = "black";
+b.style.color = "green";
+b.setAttribute('style', 'background-color: red', 'color: blue');
+
+let body = document.querySelector('body');
+body.append(b);*/
+
+
+//create a div tag in html & give it a class & some styling.now create a new class in CSS & try to append this class to the <div> elem </div>//
+
+/*let a = document.querySelector('.box');
+a.setAttribute('class', `${a.getAttribute('class')} box2`);
+console.log(a);*/
+
+//Practicing CSS Manipulation://
+
+//1.using style//
+/*let a = document.querySelector('div');
+a.style.fontSize = "60px";
+a.style.backgroundColor = "crimson";
+a.style.color = "white";*/
+
+/*2. Using Attribute method
+let a = document.querySelector('div');
+a.setAttribute('style', 'color: blue;')
+console.log(a);
+
+in attribute method we can't give mutiple styling together for this , if we want multiple styling we can
+use cssText method */
+
+//3. cssText method//
+/*let a = document.querySelector('div');
+a.style.cssText = 'background-color: crimson; font-size: 80px';
+console.log(a);*/
+/*let a = document.querySelector('div');
+a.style.cssFloat = "right";
+a.style.cssText = 'background-color: green; font-size: 80px';
+console.log(a);*/
+
+//4.using className property*//
+/*let a = document.querySelector('div');
+a.className = "redbg"
+console.log(a.className);*/
+
+/*5. using classlist property
+
+add*/
+/*let a = document.querySelector('.box');
+a.classList.add('learn','practice','build','deploy');
+
+
+//remove//
+
+/*let b = document.querySelector('.box');
+b.classList.remove('deploy');
+console.log(b.classList);*/
+
+/*let c = document.querySelector('.box');
+c.innerHTML = "VS";
+c.classList.toggle('practice');
+console.log(c.classList);*/
+
+/*let d = document.querySelector('.box');
+let e = d.classList.contains('learn');
+console.log(e);*/
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

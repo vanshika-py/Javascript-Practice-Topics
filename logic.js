@@ -351,7 +351,7 @@ Task:
 When message is sent → append at bottom.
 When message is received → prepend at top.*/
 
-let a = document.querySelector('div');
+/*let a = document.querySelector('div');
 let b = sent;
 let c = received;
 
@@ -360,7 +360,7 @@ function message_status(){
  a.insertAdjacentElement("afterbegin", b)
 }
 
-message_status(b)
+message_status(b)*/
 
 
 
