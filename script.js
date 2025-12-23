@@ -402,7 +402,44 @@ let e = d.classList.contains('learn');
 console.log(e);*/
 
 
+/*let button = document.querySelector('button');
+let body = document.querySelector('body');
+let theme = 'light';
+
+
+button.addEventListener('click',()=>{
+    if(theme === 'light'){
+        body.style.backgroundColor = 'black'
+        body.style.color = 'white'
+        theme = 'black'
+    } else {
+        body.style.backgroundColor = 'white'
+        body.style.color = 'black'
+        theme = 'light'
+    }
+})*/
+
+/*button.addEventListener('click',()=>{
+    body.classList.toggle('dark')            
+        });*/
+
  
+/*let button = document.querySelector('button');
+let body = document.querySelector('body');
+let theme = 'light';
+
+button.addEventListener('click',()=>{
+    if(theme === 'light'){
+        body.style.backgroundColor = 'black'
+        body.style.color = 'white'
+        theme = 'black'
+    } else {
+        body.style.backgroundColor = 'white'
+        body.style.color = 'black'
+        theme = 'light'
+    }
+})*/
+
 
 
 
