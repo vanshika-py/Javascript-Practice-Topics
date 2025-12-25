@@ -439,11 +439,60 @@ button.addEventListener('click',()=>{
         theme = 'light'
     }
 })*/
+/*let secondbutton = document.querySelector('.SecondBtn');
+
+SecondBtn.onclick = function(event) {
+    console.log(event);*/
+
+/*let FirstButton = document.querySelector('.FirstBtn');
+
+let show = function(){
+    console.log("hello vanshika")
+}
+FirstButton.addEventListener('click', function (event) {
+    console.log(event.type);
+})*/
+
+/*FirstButton.addEventListener('click',show);
+FirstButton.addEventListener('click',show);
+FirstButton.removeEventListener('click',show);*/
+
+/*let firstbutton = document.querySelector('.FirstBtn');
+
+firstbutton.addEventListener ('click',function(){
+    console.log("first event listener")
+});
+
+firstbutton.addEventListener('click', function(){
+    console.log('this is second event listener')
+});
+
+firstbutton.addEventListener('click', function(){
+    console.log('this is second event listener')
+});
+firstbutton.addEventListener('click', function(){
+    console.log('this is second event listener')
+});
+
+firstbutton.removeEventListener('click',function(){
+    console.log("this is second event listener")
+})*/
 
 
+let firstbutton = document.querySelector('.FirstBtn')
 
+let showconsole = function(){
+    console.log("hello")
+}
 
+/*firstbutton.addEventListener('click', showconsole);
+firstbutton.addEventListener('click', showconsole);
 
+firstbutton.removeEventListener('click', showconsole);*/
+
+firstbutton.addEventListener('click', function(event){
+    console.log(event.type)
+})
 
 
 
