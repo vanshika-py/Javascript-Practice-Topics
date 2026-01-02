@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.grand-parent{
+    background-color: brown;
+    padding: 40px;
+    margin: 20px;
+    position: fixed;
+}
+
+.parent{
+    background-color: blue;
+    padding: 50px;
+    margin: 20px;
+}
+
+.child{
+    background-color: green;
+    padding: 40px;
+    margin: 20px;
+}

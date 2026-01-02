@@ -479,7 +479,7 @@ firstbutton.removeEventListener('click',function(){
 })*/
 
 
-let firstbutton = document.querySelector('.FirstBtn')
+/*let firstbutton = document.querySelector('.FirstBtn')
 
 let showconsole = function(){
     console.log("hello")
@@ -488,12 +488,65 @@ let showconsole = function(){
 /*firstbutton.addEventListener('click', showconsole);
 firstbutton.addEventListener('click', showconsole);
 
-firstbutton.removeEventListener('click', showconsole);*/
+firstbutton.removeEventListener('click', showconsole);
 
 firstbutton.addEventListener('click', function(event){
     console.log(event.type)
+})*/
+
+
+EVENT PROPAGATION*/
+
+/*it describes  the way of how the events are travelled THROUGH THE dom when they get trigerred.
+1. event capturing (up to low) using true parameter 
+2. target evnt
+3. event bubbling (by default low to up)*/
+
+/*L grandparent = document.querySelector('.grand-parent');
+let parent = document.querySelector('.parent');
+let child = document.querySelector('.child');
+
+grandparent.addEventListener('click',() =>{
+    alert("CLICKED ON GRANDPARENT")
 })
 
+grandparent.addEventListener('click',() =>{
+    alert("CLICKED ON GRANDPARENT")
+},true)
+
+parent.addEventListener('click',() =>{
+    alert("CLICKED ON PARENT")
+})
+
+parent.addEventListener('click',() =>{
+    alert("CLICKED ON PARENT")
+},true)
+
+child.addEventListener('click', () =>{
+    alert("CLICKED ON CHILD")
+})
+
+child.addEventListener('click',() =>{
+    alert('CLICKED ON CHILD')
+},true);
+
+
+/*let grandparent = document.querySelector('.grand-parent');
+let parent = document.querySelector('.parent');
+let child = document.querySelector('.child');
+
+
+grandparent.addEventListener('click',() =>{
+    alert("CLICKED ON GRANDPARENT")
+});
+
+parent.addEventListener('click',() =>{
+    alert("CLICKED ON PARENT")
+});
+
+child.addEventListener('click', () =>{
+    alert("CLICKED ON CHILD")
+});*/
 
 
 
