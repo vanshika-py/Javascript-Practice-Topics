@@ -495,14 +495,14 @@ firstbutton.addEventListener('click', function(event){
 })*/
 
 
-EVENT PROPAGATION*/
+/*EVENT PROPAGATION
 
-/*it describes  the way of how the events are travelled THROUGH THE dom when they get trigerred.
+it describes  the way of how the events are travelled THROUGH THE dom when they get trigerred.
 1. event capturing (up to low) using true parameter 
 2. target evnt
 3. event bubbling (by default low to up)*/
 
-/*L grandparent = document.querySelector('.grand-parent');
+/*let  grandparent = document.querySelector('.grand-parent');
 let parent = document.querySelector('.parent');
 let child = document.querySelector('.child');
 
@@ -548,7 +548,44 @@ child.addEventListener('click', () =>{
     alert("CLICKED ON CHILD")
 });*/
 
+/*let grandparent= document.querySelector('.grand-parent');
+let parent = document.querySelector('.parent');
+let child = document.querySelector('.child');
 
+grandparent.addEventListener('click',(event)=>{
+    console.log("clicked on Grandparent")
+    console.log(event.target)
+    console.log(event.currentTarget)
+})
+
+parent.addEventListener('click',()=>{
+    console.log("clicked on parent")
+    console.log(event.target)
+    console.log(event.stopImmediatePropagation)
+})
+
+parent.addEventListener('click',()=>{
+    console.log("vanshika")
+    console.log(event.stopImmediatePropagation)
+})
+
+child.addEventListener('click',()=>{
+    console.log("clicked on child")
+    console.log(event.target)
+    console.log(event.currentTarget)
+})*/
+
+
+//EVENT DELEGRATION
+
+let container = document.querySelector('.container');
+let box = document.querySelector('.box');
+
+container.addEventListener('click',function(event){
+    if(event.target.className === 'box'){
+    console.log(event.target.textContent)
+}
+})
 
 
 
