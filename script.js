@@ -576,16 +576,16 @@ child.addEventListener('click',()=>{
 })*/
 
 
-//EVENT DELEGRATION
+//EVENT DELEGATION
 
-let container = document.querySelector('.container');
+/*let container = document.querySelector('.container');
 let box = document.querySelector('.box');
 
 container.addEventListener('click',function(event){
     if(event.target.className === 'box'){
     console.log(event.target.textContent)
 }
-})
+})*/
 
 
 

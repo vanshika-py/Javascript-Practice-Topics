@@ -411,6 +411,78 @@ Add before selected item
 
 Practice all insert positions.*/
 
+//---------------------Practiced concepts on all topics------------------------------------------------------------------
+
+//var let const : there are 2 scopes: 
+/*function greet(){
+    if(true){
+    var x = 10;
+    }
+console.log(x);
+}
+
+greet();*/
+
+
+/*let color = "red";
+
+switch (color){
+    case "red" : 
+    console.log("go");
+    case "pink" :
+        console.log("Stop")
+        default : 
+        console.log("unknown error")
+}*/
+
+
+/*let person = {
+    name: "Ali",
+    age: 25,
+    city: "Karachi"
+};
+
+
+for(let key in person){
+    console.log(key + person[key])
+}*/
+
+
+/*let fruits = ["apple", "mango", "banana"];
+
+for(let v of fruits){
+    console.log(v)
+}*/
+
+
+/*for(let i = 0; i <=5; i++){
+    if(i === 2)
+    continue;
+console.log(i);
+}*/
+
+
+/*let fruits = ["Apple", "Banana", "Orange"];
+  
+fruits.forEach((fruits,index,array) => {
+    console.log(`${fruits} ${index}`${})
+})*/
+
+/*let numbers = [1, 2, 3, 4, 5];
+
+//aggregate sum//
+let sum = numbers.reduce((total, num) => total+num,0);
+console.log(sum);*/
+
+let numbers = [1, 2, 3, 4];
+
+let product = numbers.reduce((prod, num) => prod*num,1)
+console.log(product);
+
+
+
+
+
 
 
 

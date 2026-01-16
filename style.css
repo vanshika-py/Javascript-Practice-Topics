@@ -1,4 +1,4 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,7 +24,7 @@
     margin: 20px;
 }*/
 
-.container{
+/*.container{
     background-color: skyblue;
     display: flex;
     align-items: center;
@@ -47,4 +47,4 @@
     border-radius: 50%;
     cursor: pointer;
     flex-wrap: wrap;
-}
+}*/
