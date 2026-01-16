@@ -474,10 +474,20 @@ fruits.forEach((fruits,index,array) => {
 let sum = numbers.reduce((total, num) => total+num,0);
 console.log(sum);*/
 
-let numbers = [1, 2, 3, 4];
+/*let numbers = [1, 2, 3, 4];
 
 let product = numbers.reduce((prod, num) => prod*num,1)
-console.log(product);
+console.log(product);*/
+
+let fruits = ["apple", "banana", "apple", "orange", "apple"];
+
+
+let count = fruits.reduce((Acc, fruit) =>{
+ Acc[fruit] =(Acc[fruit] || 0) + 1;
+ return Acc;
+},{});
+
+console.log(count);
 
 
 
