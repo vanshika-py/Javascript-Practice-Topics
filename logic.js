@@ -462,10 +462,10 @@ console.log(i);
 }*/
 
 
-/*let fruits = ["Apple", "Banana", "Orange"];
+/*let fruit = ["Apple", "Banana", "Orange"];
   
 fruits.forEach((fruits,index,array) => {
-    console.log(`${fruits} ${index}`${})
+    console.log(`${fruits} ${index} ${array}`)
 })*/
 
 /*let numbers = [1, 2, 3, 4, 5];
@@ -479,15 +479,16 @@ console.log(sum);*/
 let product = numbers.reduce((prod, num) => prod*num,1)
 console.log(product);*/
 
-let fruits = ["apple", "banana", "apple", "orange", "apple"];
+//let fruits = ["apple", "banana", "apple", "orange", "apple"]//
 
 
-let count = fruits.reduce((Acc, fruit) =>{
+/*let count = fruits.reduce((Acc, fruit) =>{
  Acc[fruit] =(Acc[fruit] || 0) + 1;
  return Acc;
 },{});
 
-console.log(count);
+console.log(count);*/
+
 
 
 

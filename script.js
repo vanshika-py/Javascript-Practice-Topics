@@ -588,9 +588,29 @@ container.addEventListener('click',function(event){
 })*/
 
 
+//Numbers in JS//
 
+/*let num = 2811;
+console.log(typeof num);
 
+let num1 = "2811";
+console.log(typeof num1);
 
+let num2 = Number("2811");
+console.log(typeof num2);
+
+let num3 = new Number("2811");
+console.log(typeof num3);*/
+
+let num = '123.40';
+let num1 = 123.40;
+let num2 = '123.45465px';
+
+//console.log(typeof num);//
+
+console.log(Number.parseInt(num));
+console.log(typeof(Number.parseInt(num1)));
+console.log(Number.parseFloat(num));
 
 
 
