@@ -602,7 +602,7 @@ console.log(typeof num2);
 let num3 = new Number("2811");
 console.log(typeof num3);*/
 
-let num = '123.40';
+/*let num = '123.40';
 let num1 = 123.40;
 let num2 = '123.45465px';
 
@@ -610,12 +610,18 @@ let num2 = '123.45465px';
 
 console.log(Number.parseInt(num));
 console.log(typeof(Number.parseInt(num1)));
-console.log(Number.parseFloat(num));
+console.log(Number.parseFloat(num));*/
 
+//JAVASCRIPT  JSON SYNTAX//
 
+let json1 = {
+    "name" : "vanshika kathpal",
+    "age" : 21,
+    "isMarried" : "No",
+    "Status" : "learning frontend development"
+}
 
-
-
+console.log(json1);
 
 
 
