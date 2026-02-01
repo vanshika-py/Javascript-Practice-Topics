@@ -629,6 +629,29 @@ console.log(typeof json2);
 console.log(typeof json1);
 */
 
+let json1 = {
+    "name" : "vanshika kathpal",
+    "age" : 21,
+    "isMarried" : false,
+    "Status" : "learning frontend development"
+};
+
+//Converting JSON Object to json (string)//
+
+let json2 = JSON.stringify(json1);
+
+console.log(typeof json2);
+
+console.log(typeof json1);
+
+
+
+
+
+
+
+
+
 
 
 const data = require('./script.json');
