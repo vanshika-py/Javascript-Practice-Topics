@@ -613,15 +613,23 @@ console.log(typeof(Number.parseInt(num1)));
 console.log(Number.parseFloat(num));*/
 
 //JAVASCRIPT  JSON SYNTAX//
-
-/*t json1 = {
+/*
+let json1 = `{
     "name" : "vanshika kathpal",
     "age" : 21,
-    "isMarried" : "No",
+    "isMarried" : false,
     "Status" : "learning frontend development"
-}
+}`;
+ 
+/*
+let json2 = JSON.parse(json1);
+console.log(typeof json2);
 
-console.log(json1);*/
+
+console.log(typeof json1);
+*/
+
+
 
 const data = require('./script.json');
 console.log(data);
