@@ -614,18 +614,17 @@ console.log(Number.parseFloat(num));*/
 
 //JAVASCRIPT  JSON SYNTAX//
 
-let json1 = {
+/*t json1 = {
     "name" : "vanshika kathpal",
     "age" : 21,
     "isMarried" : "No",
     "Status" : "learning frontend development"
 }
 
-console.log(json1);
+console.log(json1);*/
 
-
-
-
+const data = require('./script.json');
+console.log(data);
 
 
 
