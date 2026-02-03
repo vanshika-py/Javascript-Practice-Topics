@@ -643,9 +643,16 @@ let json2 = JSON.stringify(json1);
 console.log(typeof json2);
 
 console.log(typeof json1);*/
-
+/*
 let response = fetch('https://jsonplaceholder.typicode.com/users');
-console.log(response);
+console.log(response);*/
+
+async function fetchdata(){
+let response = await fetch('https://jsonplaceholder.typicode.com/users')
+console.log(response)
+}
+
+fetchdata();
 
 
 
