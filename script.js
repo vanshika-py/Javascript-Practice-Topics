@@ -649,7 +649,7 @@ console.log(response);*/
 
 async function fetchdata(){
 let response = await fetch('https://jsonplaceholder.typicode.com/users')
-console.log(response)
+console.log(response.json());
 }
 
 fetchdata();
