@@ -629,7 +629,7 @@ console.log(typeof json2);
 console.log(typeof json1);
 */
 
-let json1 = {
+/*let json1 = {
     "name" : "vanshika kathpal",
     "age" : 21,
     "isMarried" : false,
@@ -642,7 +642,10 @@ let json2 = JSON.stringify(json1);
 
 console.log(typeof json2);
 
-console.log(typeof json1);
+console.log(typeof json1);*/
+
+let response = fetch('https://jsonplaceholder.typicode.com/users');
+console.log(response);
 
 
 
