@@ -647,36 +647,41 @@ console.log(typeof json1);*/
 let response = fetch('https://jsonplaceholder.typicode.com/users');
 console.log(response);*/
 
-async function fetchdata(){
-let response = await fetch('https://jsonplaceholder.typicode.com/users')
-console.log(response.json());
+/*async function fetchdata(){
+let response = await fetch('https://jsonplaceholder.typicode.com/users/2')
+console.log(await response.json());
 }
 
 fetchdata();
 
 
 
-
-
-
-
-
-
-
-
 const data = require('./script.json');
-console.log(data);
+console.log(data);*/
+
+
+//ASYNC AWAIT PRACTICE//
+
+
+/*console.log("task 1");
+
+setTimeout(() => {
+    console.log("second task")
+},4000);
+
+console.log("third task");
+console.log("fourth task");*/
 
 
 
+console.log("task 1");
 
+setTimeout(() => {
+    console.log("async second task")
+},4000);
 
-
-
-
-
-
-
+console.log("third task");
+console.log("fourth task");
 
 
 
