@@ -673,15 +673,19 @@ console.log("third task");
 console.log("fourth task");*/
 
 
+//SetTimeOut is higher order function & synchoronous in Nature//
+console.log("Hey Guys Do you want coffee");
 
-console.log("task 1");
+console.log("Muskan Serves Coffee");
 
 setTimeout(() => {
-    console.log("async second task")
-},4000);
+    for(let i = 1; i <= 400; i++){
+    console.log("Person", i , "comes")
+}
+},1000);
 
-console.log("third task");
-console.log("fourth task");
+console.log("Capachino Coffee is Ready");
+
 
 
 
