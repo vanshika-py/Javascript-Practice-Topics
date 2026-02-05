@@ -675,14 +675,14 @@ console.log("fourth task");*/
 
 //synchronous//
 
-console.log("Hey Guys Do you want coffee");
+/*console.log("Hey Guys Do you want coffee");
 console.log("Which coffee do you want");
 
 for(let i = 1; i <= 400; i++){
     console.log("Person", i ,"Comes")
 };
 
-console.log("Coffee served");
+console.log("Coffee served");*/
 
 
 
@@ -700,6 +700,14 @@ setTimeout(() => {
 
 console.log("Capachino Coffee is Ready");*/
 
+
+//fetching API//
+async function fetchdata() {
+let response = await fetch('https://newsapi.org/v2/everything?q=tesla&from=2026-01-05&sortBy=publishedAt&apiKey=2581cbfb55184f378cdb18f0f0b61245');
+console.log(response);
+}
+
+fetchdata();
 
 
 
