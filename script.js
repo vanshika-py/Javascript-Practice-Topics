@@ -702,24 +702,59 @@ console.log("Capachino Coffee is Ready");*/
 
 
 //fetching API//
-async function fetchdata() {
+/*async function fetchdata() {
 let response = await fetch('https://newsapi.org/v2/everything?q=tesla&from=2026-01-05&sortBy=publishedAt&apiKey=2581cbfb55184f378cdb18f0f0b61245');
 console.log(response);
 }
 
-fetchdata();
+fetchdata();*/
 
 
 
 
+/*console.log(x);
+
+var x = 10;
+
+console.log(x);*/
 
 
 
+/*let num = 25;
+
+num();
+
+function num(){
+    console.log("stop")
+}*/
 
 
 
+console.log(a);
+var a = 5;
+function test (){
+    console.log(a)
+    var a = 10;
+}
+
+test();
 
 
+/*console.log("start");
+setTimeout(() => {
+    console.log("Timeout 1")
+},0);
 
+Promise.resolve().then(()=>{
+    console.log("Promise 1")
+},0);
 
+setTimeout(() => {
+    console.log("Timeout 1")
+},0);
+
+setTimeout(() => {
+console.log("Timeout 2")
+},0)
+console.log(end);*/
 
