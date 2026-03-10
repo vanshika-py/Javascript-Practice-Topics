@@ -740,7 +740,7 @@ function test (){
 test();
 
 
-/*console.log("start");
+console.log("start");
 setTimeout(() => {
     console.log("Timeout 1")
 },0);
@@ -756,5 +756,5 @@ setTimeout(() => {
 setTimeout(() => {
 console.log("Timeout 2")
 },0)
-console.log(end);*/
+console.log(end);
 
