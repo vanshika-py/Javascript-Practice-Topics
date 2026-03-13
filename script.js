@@ -810,25 +810,85 @@ DISADVANTAGE : DOES NOT ACT AS A BLUEPRINT AS WE HAVE TO DO AGAIN & AGAIN COPY P
 
     // After ES6 CLASS KEYWORD IS USED
 
-    class Person {
-        constructor(fname, lname, contactnum) {
-            this.fname = fname;
-            this.lname = lname;
-            this.contactnum = contactnum;
+    //class Person {
+    //     constructor(fname, lname, contactnum) {
+    //         this.fname = fname;
+    //         this.lname = lname;
+    //         this.contactnum = contactnum;
 
-            this.getName= function() {
-                console.log(this.fname, this.lname)
+    //         this.getName= function() {
+    //             console.log(this.fname, this.lname)
+    //         }
+
+    //         this.getcontactnum = function() {
+    //             console.log(this.contactnum)
+    //         }
+    //     }
+    // }
+    
+    // const p2 = new Person('vanshika', 'kathpal', '321487543');
+    // // console.log(p2);
+
+    // // console.log(p2.getName());
+
+    // console.log(p2.getcontactnum());//
+
+    /*class Employees {
+        constructor(Name, Department, id, Position) {
+            this.Name = Name;
+            this.Department = Department;
+            this.id = id;
+            this.Position = Position;
+            this.getName = function() {
+                console.log(this.Name);
             }
-
-            this.getcontactnum = function() {
-                console.log(this.contactnum)
+            this.getDepartment = function(){
+                console.log(this.Department)
+            }
+            this.getid = function(){
+                console.log(this.id);
+            }
+            this.getPosition = function(){
+                console.log(this.Position);
             }
         }
     }
-    
-    const p2 = new Person('vanshika', 'kathpal', '321487543');
-    // console.log(p2);
 
-    // console.log(p2.getName());
+    const emp1 = new Employees ('vanshika kathpal', 'IT', '12', 'senior developer');
 
-    console.log(p2.getcontactnum());
+    // console.log(emp1);//
+
+    // console.log(emp1.getid());
+
+    // console.log(emp1.getName());
+
+    // console.log(emp1.getPosition());
+        
+    emp1.getDepartment();*/
+   
+
+
+        class Employees {
+        constructor(Name, Department, id, Position) {
+            this.Name = Name;
+            this.Department = Department;
+            this.id = id;
+            this.Position = Position;
+            this.getName = function() {
+                return(this.Name);
+            }
+            this.getDepartment = function(){
+                return(this.Department)
+            }
+            this.getid = function(){
+                return(this.id);
+            }
+            this.getPosition = function(){
+                return(this.Position);
+            }
+        }
+    }
+
+    const emp1 = new Employees ('vanshika kathpal', 'IT', '12', 'senior developer');
+
+    console.log(emp1.getName());
