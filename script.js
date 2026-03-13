@@ -823,7 +823,7 @@ DISADVANTAGE : DOES NOT ACT AS A BLUEPRINT AS WE HAVE TO DO AGAIN & AGAIN COPY P
     //         this.getcontactnum = function() {
     //             console.log(this.contactnum)
     //         }
-    //     }
+    //     }git init
     // }
     
     // const p2 = new Person('vanshika', 'kathpal', '321487543');
@@ -833,7 +833,7 @@ DISADVANTAGE : DOES NOT ACT AS A BLUEPRINT AS WE HAVE TO DO AGAIN & AGAIN COPY P
 
     // console.log(p2.getcontactnum());//
 
-    /*class Employees {
+    class Employees {
         constructor(Name, Department, id, Position) {
             this.Name = Name;
             this.Department = Department;
@@ -855,20 +855,12 @@ DISADVANTAGE : DOES NOT ACT AS A BLUEPRINT AS WE HAVE TO DO AGAIN & AGAIN COPY P
     }
 
     const emp1 = new Employees ('vanshika kathpal', 'IT', '12', 'senior developer');
-
-    // console.log(emp1);//
-
-    // console.log(emp1.getid());
-
-    // console.log(emp1.getName());
-
-    // console.log(emp1.getPosition());
-        
-    emp1.getDepartment();*/
-   
+  
+       emp1.getDepartment();
+       emp1.getName();
 
 
-        class Employees {
+       /*class Employees {
         constructor(Name, Department, id, Position) {
             this.Name = Name;
             this.Department = Department;
@@ -891,4 +883,4 @@ DISADVANTAGE : DOES NOT ACT AS A BLUEPRINT AS WE HAVE TO DO AGAIN & AGAIN COPY P
 
     const emp1 = new Employees ('vanshika kathpal', 'IT', '12', 'senior developer');
 
-    console.log(emp1.getName());
+    console.log(emp1.getName());*/
