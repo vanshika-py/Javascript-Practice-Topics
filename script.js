@@ -730,7 +730,7 @@ function num(){
 
 
 
-console.log(a);
+/*console.log(a);
 var a = 5;
 function test (){
     console.log(a)
@@ -756,5 +756,53 @@ setTimeout(() => {
 setTimeout(() => {
 console.log("Timeout 2")
 },0)
-console.log(end);
+console.log(end);*/
 
+
+//Object , function constructor, ES6 constructor & difference between All 3//
+
+/*oBJECTS ARE COLLECTION OF KEY-VALUE PAIRS. EACH KEY-VALUE PAIR CAN BE CALLED AS A PROPERTY. A PROPERTY CAN BE A FUNCTION, ARRAY, OBJECT 
+OR OBJECT OF ANY TYPE LIKE INT, STRING, ARRAY OR AN OBJECT ITSELF. 
+FUNCTIONS IN OBJECTS ARE CALLED METHODS.*/
+
+/*let person = {
+    fname : 'vanshika',
+    lname : 'kathpal',
+    contactnum : '11111111',
+    getage : function (){
+        console.log("25");
+    }
+}
+
+console.log(person);
+
+let person2 = {
+    fname : 'vansh',
+    lname : 'doew',
+    contactnum : '11111111',
+    getage : function (){
+        console.log("25");
+    }
+}
+
+console.log(person2);*/
+
+/*this is the old method of making objects before ES6 {} ADVANTAGE - IT IS SIMPLE 
+DISADVANTAGE : DOES NOT ACT AS A BLUEPRINT AS WE HAVE TO DO AGAIN & AGAIN COPY PASTE */
+
+// /2ND METHOD BEFORE ES6 USING FUNCTION CONSTRUCTOR*/
+
+function Person (fname, lname, contactnum) {
+    this.fname = fname;
+    this.lname = lname;
+    this.contactnum = contactnum;
+ 
+    this.getDetails = function () {
+        console.log(this.fname, this.lname, this.contactnum)
+    }
+    } 
+
+
+
+    const Person1 =  new Person("vanshika", "kathpal", "65687");
+    console.log(Person1);
