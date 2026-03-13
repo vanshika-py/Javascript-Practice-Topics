@@ -792,7 +792,7 @@ DISADVANTAGE : DOES NOT ACT AS A BLUEPRINT AS WE HAVE TO DO AGAIN & AGAIN COPY P
 
 // /2ND METHOD BEFORE ES6 USING FUNCTION CONSTRUCTOR*/
 
-function Person (fname, lname, contactnum) {
+/*function Person (fname, lname, contactnum) {
     this.fname = fname;
     this.lname = lname;
     this.contactnum = contactnum;
@@ -803,6 +803,32 @@ function Person (fname, lname, contactnum) {
     } 
 
 
-
     const Person1 =  new Person("vanshika", "kathpal", "65687");
-    console.log(Person1);
+    console.log(Person1);*/
+
+    // before es6 function constrructor method is used with (this & new keyword)
+
+    // After ES6 CLASS KEYWORD IS USED
+
+    class Person {
+        constructor(fname, lname, contactnum) {
+            this.fname = fname;
+            this.lname = lname;
+            this.contactnum = contactnum;
+
+            this.getName= function() {
+                console.log(this.fname, this.lname)
+            }
+
+            this.getcontactnum = function() {
+                console.log(this.contactnum)
+            }
+        }
+    }
+    
+    const p2 = new Person('vanshika', 'kathpal', '321487543');
+    // console.log(p2);
+
+    // console.log(p2.getName());
+
+    console.log(p2.getcontactnum());
