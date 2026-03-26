@@ -646,7 +646,7 @@ console.log(typeof json1);*/
 /*
 let response = fetch('https://jsonplaceholder.typicode.com/users');
 console.log(response);*/
-
+ M
 /*async function fetchdata(){
 let response = await fetch('https://jsonplaceholder.typicode.com/users/2')
 console.log(await response.json());
@@ -853,11 +853,11 @@ DISADVANTAGE : DOES NOT ACT AS A BLUEPRINT AS WE HAVE TO DO AGAIN & AGAIN COPY P
             }
         }
     }
-
++
     const emp1 = new Employees ('vanshika kathpal', 'IT', '12', 'senior developer');
   
-       emp1.getDepartment();
-       emp1.getName();
+    //    emp1.getDepartment();
+          emp1.getName();
 
 
        /*class Employees {
