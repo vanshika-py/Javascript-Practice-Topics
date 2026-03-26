@@ -1,3 +1,3 @@
-const nm = require('./modules.js');
+const object = require('./modules.js');
 
-console.log(nm);
+console.log(object);
