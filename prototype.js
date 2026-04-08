@@ -17,11 +17,15 @@ const p1 = {
 
 //using prototype//
 
- const p2 = Object.create (p1);
+//  const p2 = Object.create (p1);
 
 // // console.log(p2);
 
 // console.log(p2.lname);
+
+const p2 = {
+    __proto__: p1 
+}
 
 console.log("p1 before is", p1.fname);
 
