@@ -1,3 +1,5 @@
+/*COMMON JS EXPORT*/
+
 // let person  = {
 //     Name : "vanshika",
 //     Age : 21,
