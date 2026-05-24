@@ -15,5 +15,19 @@
 
 
 
-const add =   (a) => (b)=> (c) => a + b + c;
-console.log(add(1) (2) (3));
+// const add =   (a) => (b)=> (c) => a + b + c;
+// console.log(add(1) (2) (3));
+
+function sendAutoEmail (to){
+    return function (subject) {
+    return function (body) {
+    console.log(`sending email to ${to} with subject ${subject} : ${body}`)
+}
+    }
+};
+
+
+
+let step1 = sendAutoEmail("vanshikakathpal381@gmail.com");
+let step2 = step1("New order confirmation")
+let step3 = step2("Hey vanshika , there is somethging for you")
