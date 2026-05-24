@@ -23,12 +23,25 @@ const p1 = {
 
 // console.log(p2.lname);
 
-const p2 = {
-    __proto__: p1 
+// const p2 = {
+//     __proto__: p1 
+// }
+
+// console.log("p1 before is", p1.fname);
+
+// p2.__proto__.fname = "Sumit";
+// console.log("p1 after is", p1.fname);
+
+// var house = { color : "brown",
+//     size: "huge",
+// erxpensive : true,
+// }
+
+// // house.prototype
+// house.__proto__
+
+function add(a,b){
+    return a+b
 }
 
-console.log("p1 before is", p1.fname);
-
-p2.__proto__.fname = "Sumit";
-console.log("p1 after is", p1.fname);
-
+add.prototype
